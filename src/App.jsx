@@ -22,7 +22,7 @@ export const availableIngredients = [
 
 const App = () => {
 
-  const [stack, setStack] = useState({});
+  const [stack, setStack] = useState([]);
 
   const addToBurger = (ingredient) => {
     setStack([...stack, ingredient])
